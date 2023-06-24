@@ -1,0 +1,139 @@
+body {
+    /*background: linear-gradient(360deg, rgba(114,137,153,1) 0%, rgba(38,108,150,1) 29%, rgba(18,109,157,1) 63%, rgba(6,119,176,1) 100%);*/
+    background: #e4e4e4;
+    font-family: "Gill Sans MT";
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    position: fixed;
+    margin: 100px 0;
+    display: flex;
+    background: #a29c9c;
+    color: #e4e4e4;
+    font-weight: bold;
+}
+
+ul {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    margin-top: 30px;
+}
+
+a {
+    color: inherit;
+    border-radius: 5%;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*a:hover {*/
+/*    background: linear-gradient(360deg, rgba(38,108,150,1) 29%, rgba(18,109,157,1) 63%, rgba(6,119,176,1) 100%);*/
+/*}*/
+
+.c1 {
+    display: flex;
+}
+
+
+.hisp {
+    color: #0d0d0d;
+    font-size: 300px;
+    transform: translate(200%, 25%);
+}
+
+.text1 {
+    color: #0d0d0d;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+
+.text2 {
+    color: #0d0d0d;
+    font-size: 18px;
+    margin: 10px;
+    text-align: left;
+
+}
+
+.c {
+    display: flex;
+    flex-direction: row;
+}
+
+.c2 {
+    margin-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c2cpy {
+    margin-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+#java {
+    scale: 70%;
+    align-self: center;
+}
+
+.frames {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.interitance {
+
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.inhli {
+    margin: 0;
+}
+
+#veeva {
+    align-self: center;
+}
+
+.skills {
+    list-style-type: none;
+    margin: 0;
+}
+
+.skillsli {
+    text-align: left;
+    margin: 0;
+
+}
+
+a:hover {
+    color: #0d0d0d;
+    background-color: #e4e4e4;
+}
+
+#git
+{
+
+    border-radius: 30%;
+    padding: 20px 15px 10px 15px;
+}
