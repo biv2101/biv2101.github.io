@@ -97,7 +97,7 @@ a {
 .frames {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .interitance {
@@ -136,4 +136,14 @@ a:hover {
 
     border-radius: 30%;
     padding: 20px 15px 10px 15px;
+}
+
+article
+{
+    border-top: 2px solid #0d0d0d;
+}
+
+hr
+{
+    visibility: hidden;
 }
