@@ -2,7 +2,7 @@ body {
     /*background: linear-gradient(360deg, rgba(114,137,153,1) 0%, rgba(38,108,150,1) 29%, rgba(18,109,157,1) 63%, rgba(6,119,176,1) 100%);*/
     background: #e4e4e4;
     font-family: "Gill Sans MT";
-
+    box-sizing: content-box;
 }
 
 body::-webkit-scrollbar {
@@ -10,8 +10,6 @@ body::-webkit-scrollbar {
 }
 
 nav {
-    width:17%;
-    height:80%;
     position: fixed;
     margin: 10px 0;
     display: flex;
@@ -23,7 +21,7 @@ nav {
 
 
 ul {
-    padding: 30px 0;
+    padding: 0;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -38,7 +36,6 @@ li {
 a {
     color: inherit;
     border-radius: 5%;
-    padding: 5px;
     text-decoration: none;
 }
 
@@ -150,6 +147,7 @@ hr
 
 #av
 {
+    scale:70%;
     margin: 10px;
     border: 3px solid #0d0d0d;
     border-radius: 50%;
@@ -172,4 +170,11 @@ hr
     display:flex;
     flex-direction: row-reverse;
     justify-content: center;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
 }
