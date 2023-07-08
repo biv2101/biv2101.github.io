@@ -179,3 +179,21 @@ form
     flex-direction: column;
     margin: 25px;
 }
+
+.kontakt
+{
+    margin-top: 50px;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea
+{
+    margin-top:20px;
+}
+
+textarea
+{
+    height: 150px;
+}
